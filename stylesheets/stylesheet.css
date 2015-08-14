@@ -30,6 +30,7 @@ body {
  * Correct `block` display not defined for `main` in IE 11.
  */
 
+gull,
 article,
 aside,
 details,
@@ -451,7 +452,7 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  background: #2ecdcf ; /* url(../images/header-bg.jpg) 0 0 repeat-x; */
   border-bottom: solid 1px #275da1;
 }
 
@@ -497,6 +498,27 @@ header h2 {
   max-width: 100%;
 }
 
+gull#leftbar{
+		float: left;
+		width: 300px;
+		padding-top: 50px;
+		padding-left:10px; 
+		font-family: Courier;
+		font: 24px;
+}
+gull a .but {
+		display: inline;
+		font-family="Courier sans serif";
+  width: 80px;
+  height: 58px;
+  padding-top: 22px;
+  padding-left: 68px;
+  /* font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; */
+  font-size: 63px;
+  line-height: 1.2;
+  color: #888;
+}
+
 aside#sidebar {
   float: right;
   width: 200px;
@@ -534,7 +556,7 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  background: transparent url(../images/bolichep-button.svg) 0 0 no-repeat;
 }
 aside a.button {
   display: block;
